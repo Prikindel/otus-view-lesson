@@ -31,14 +31,15 @@ class SimpleChartView @JvmOverloads constructor (
             setValues(listOf(4, 2, 1, 5, 0, 2))
         }
 
+        /*
         val typedArray = context.obtainStyledAttributes(attrs, R.styleable.SimpleChartView)
         val baseColor: Int = typedArray.getColor(R.styleable.SimpleChartView_baseColor, Color.GREEN)
         val dangerColor = typedArray.getColor(R.styleable.SimpleChartView_dangerColor, Color.RED)
         val threshold = typedArray.getInt(R.styleable.SimpleChartView_threshold, Int.MAX_VALUE)
         val barWidth = typedArray.getDimension(R.styleable.SimpleChartView_barWidth, 50.px.toFloat())
         typedArray.recycle()
-
         setup(baseColor, dangerColor, threshold, barWidth)
+        */
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {

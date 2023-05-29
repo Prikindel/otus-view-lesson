@@ -80,11 +80,13 @@ class ChartInfoLayout @JvmOverloads constructor (
         var forceTop: Boolean = false
 
         init {
+            /*
             val typedArray =
                 context.obtainStyledAttributes(attrs, R.styleable.ChartInfoLayout_Layout)
             forceTop =
                 typedArray.getBoolean(R.styleable.ChartInfoLayout_Layout_layout_forceTop, false)
             typedArray.recycle()
+            */
         }
     }
 }
