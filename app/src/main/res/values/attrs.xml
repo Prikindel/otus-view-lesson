@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartInfoLayout">
+        <attr name="threshold" format="integer" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="dangerColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleChartView_Layout">
+        <attr name="layout_forceTop" format="boolean" />
+    </declare-styleable>
+</resources>

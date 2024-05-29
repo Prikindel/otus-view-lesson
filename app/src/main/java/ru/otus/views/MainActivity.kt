@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+        binding.chart.setValues(listOf(60, 20, 40, 80, 45, 30, 70))
     }
 }

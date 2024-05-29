@@ -5,7 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity" >
+
+        <ru.otus.views.start.SimpleChartView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+                <ru.otus.views.start.ChartInfoLayout
+                    android:id="@+id/chart"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    app:layout_forceTop="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:text="Hello Kotlin"/>
+
+        </ru.otus.views.start.SimpleChartView>
 
 </LinearLayout>
